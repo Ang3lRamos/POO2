@@ -112,6 +112,7 @@ public class Main {
                         System.out.println("Digite la nota");
                         float nota = scan.nextFloat();
                         Asignatura asi = new Asignatura();
+                        asi.setNota(nota);
                         asi.setAsignatura(asignatura);
                         asi.setProfesores(docente);
                         asi.setEstudiantes(estudiante);
