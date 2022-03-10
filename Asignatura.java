@@ -53,8 +53,5 @@ public class Asignatura {
         }else if(nota >5){
             throw new Excepciones("La nota no es valida");
         }
-        else{
-            System.out.println("Error");
-        }
     }
 }
